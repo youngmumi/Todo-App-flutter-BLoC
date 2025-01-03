@@ -5,7 +5,7 @@ part 'isar_todo.g.dart';
 
 @collection
 class TodoIsar {
-  Id id = Isar.autoIncrement;
+  int id = Isar.autoIncrement;
   late String text;
   late bool isCompleted;
 
